@@ -19,9 +19,9 @@ func (s Stardate) String() string {
 func TimeToStardate(t time.Time) Stardate {
 	unix_time := t.Unix()
 
-	unix_diff := float64(unix_time - UnixOfStardateZero)
+	unix_diff := unix_time - UnixOfStardateZero
 
-	s := Stardate(unix_diff / SecondsPerStardate)
+	s := Stardate(float64(unix_diff) / SecondsPerStardate)
 	return s
 }
 
