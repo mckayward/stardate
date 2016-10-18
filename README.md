@@ -1,4 +1,4 @@
-#Challenge 063: Stardate
+# Challenge 063: Stardate [![CircleCI](https://circleci.com/gh/mckayward/stardate.svg?style=shield)](https://circleci.com/gh/mckayward/stardate)
 
 In preparation for interplanetary space travel and humans living on planets other than earth, we are going to need a new system for expressing dates. Star Trek kinda already did this in the future for us, with the stardate system. We’re going to need some functions to translate earth dates into stardates (and vice versa). Your challenge is to write a function that converts and earth date (ie. 2016-10-05) into a stardate.
 
