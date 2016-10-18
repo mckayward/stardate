@@ -35,7 +35,7 @@ func TestStardateToTimeOfStardateZero(t *testing.T) {
 	actual := stardate.StardateToTime(stardate.Stardate(0.0))
 	expected := time.Date(2318, 7, 5, 12, 0, 0, 0, loc)
 
-	if actual != expected {
+	if !actual.Equal(expected) {
 		t.Fatalf("Expected %s but got %s", expected, actual)
 	}
 }
