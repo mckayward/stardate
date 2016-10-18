@@ -5,15 +5,7 @@ import (
 	"time"
 )
 
-//func init() {
-//l, _ := time.LoadLocation("America/Los_Angeles")
-//d := time.Date(2315, 7, 5, 12, 0, 0, 0, l).Unix()
-
-//}
-
 const (
-	StardatesPerYear   = 918.23186
-	DaysPerStardate    = 0.397766856
 	SecondsPerStardate = 34367.0564
 	UnixOfStardateZero = 10997841600 // July 5, 2315 at 12PM PST
 )
